@@ -16,6 +16,7 @@ This section describes the following steps to execute this program
 
 2.Edit service_monitor.go file to insert const values
 
+    const COMPUTE_PORT = "xxx"
     const USER_NAME = "xxx"
     const PASSWORD = "xxx"
     
