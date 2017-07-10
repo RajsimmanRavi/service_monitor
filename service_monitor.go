@@ -159,8 +159,8 @@ func service_status(url string, token string, tenant_id string) (string, string)
 	Function that makes a map (or hash table) of the service_id and it's description.
 	Ex: of keystone service-list
 
-	|	SERVICE_ID	|	NAME				|	TYPE		|	DESCRIPTION	|
-	|	722966fd1ed04a0d8769ee151ab781dc	|	ceilometer	|	metering	|	Ceilometer Service	|
+	|	SERVICE_ID							|	NAME				|	TYPE		|	DESCRIPTION			|
+	|	722966fd1ed04a0d8769ee151ab781dc	|	ceilometer			|	metering	|	Ceilometer Service	|
 
 	For each row, this function maps the id and the description such that:
 	service_map[722...dc] = "Ceilometer Service"
