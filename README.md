@@ -2,9 +2,15 @@
 Monitor OpenStack services using REST API calls
 
 ## Dependencies ##
-This program does require the jsonparser package (https://github.com/buger/jsonparser). Hence, download the package by using the following command:
+This program requires a couple of Golang packages:
 
-    go get github.com/buger/jsonparser
+- jsonparser package (https://github.com/buger/jsonparser). Download the package by using the following command
+    
+        go get github.com/buger/jsonparser
+    
+- Go-ini package (https://go-ini.github.io/ini). Download the package by using the following command:
+
+        go get github.com/go-ini/ini
     
 ## Installation Instructions ##
 
