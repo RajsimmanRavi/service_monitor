@@ -159,7 +159,7 @@ func service_status(url string, token string, tenant_id string) (string, string)
 	Function that makes a map (or hash table) of the service_id and it's description.
 	Ex: of keystone service-list
 
-	|	SERVICE_ID							|	NAME		|	TYPE		|	DESCRIPTION			|
+	|	SERVICE_ID	|	NAME	|	TYPE	|	DESCRIPTION	|
 	|	722966fd1ed04a0d8769ee151ab781dc	|	ceilometer	|	metering	|	Ceilometer Service	|
 
 	For each row, this function maps the id and the description such that:
@@ -169,7 +169,7 @@ func service_status(url string, token string, tenant_id string) (string, string)
 	endpoint-list and get the description for that specific endpoint
 
 	Ex. of endpoint-list output:
-	|	...	|	REGION		|	PUBLICURL								|	...	|	...	|	SERVICE_ID							|
+	|	...	|	REGION		|	PUBLICURL	|	...	|	...	|	SERVICE_ID	|
 	|	...	|	EDGE-VC-1	|	http://vc-edge-1.savitestbed.ca:8777 	|	...	|	...	|	722966fd1ed04a0d8769ee151ab781dc	|
 
 	In the end, we can get the description of that specific endpoint url
