@@ -169,7 +169,7 @@ func service_status(url string, token string, tenant_id string) (string, string)
 	endpoint-list and get the description for that specific endpoint
 
 	Ex. of endpoint-list output:
-	|	...	|	REGION		|	PUBLICURL	|	...	|	...	|	SERVICE_ID	|
+	|	...	|	REGION		|	PUBLICURL								|	...	|	...	|	SERVICE_ID							|
 	|	...	|	EDGE-VC-1	|	http://vc-edge-1.savitestbed.ca:8777 	|	...	|	...	|	722966fd1ed04a0d8769ee151ab781dc	|
 
 	In the end, we can get the description of that specific endpoint url
