@@ -20,15 +20,11 @@ This section describes the following steps to execute this program
 
     git clone https://github.com/RajsimmanRavi/service_monitor.git /path/to/go/src/
 
-2.Edit service_monitor.go file to insert const values
-
+2.Edit config.ini file to insert const values such as:
+    
     const COMPUTE_PORT = "xxx"
     const USER_NAME = "xxx"
     const PASSWORD = "xxx"
-    
-    In the main() function, edit the TENANTS
-    
-    var TENANTS = [x]string{"xxx", "xxx", "xxx" ...}
 
 3.Build the go file
 
